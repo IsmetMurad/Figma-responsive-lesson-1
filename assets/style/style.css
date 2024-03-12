@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+:root{
+    --main-color: #222338;
+    --main-font: "Plus Jakarta Sans", sans-serif;
+}
+
+body{
+    background-color: #1E1E1E;
+}
+/* top, right, bootom, left */
+.explore-mentors{
+    background-color: var(--main-color);
+    width: 1114px;
+    height: 182px;
+    float: right;
+    margin: 20px 20px 20px 20px;
+    border-radius: 16px;
+}
+.task-manager{
+    width: 244px;
+    height: 972px;
+    background-color: var(--main-color);
+    border-radius: 16px;
+    margin: 64px 20px 63px 42px;
+}
+.book-logo{
+    background-color: blue;
+    font-size: 30px;
+    border-radius: 26px;
+    margin-left: 28px;
+    margin-top: 30px;
+
+}
+.logo-text{
+    display: inline;
+    color: #fff;
+    font-weight: 600;
+    font-family: var(--main-font);
+    font-size: 20px;
+    width: 136px;
+    
+}
+.list-items{
+    color: #fff;
+    list-style-type: none;
+    font-family: var(--main-font);
+    font-size: 24px;
+    font-weight: 500;
+    
+    
+}
+.navigation{
+    margin-top: 58px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.title1{
+    color: #fff;
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 32px;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+.search-bar{
+    padding: 20px 100px;
+    border: 2px solid #fff;
+    background-color: #1e1e1e00;
+    border-radius: 10px;
+    margin-left: 32px;
+
+}
+.title2{
+    color: #fff;
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 24px;
+    float: right;
+
+
+    
+
+
+
+}
