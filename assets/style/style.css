@@ -15,6 +15,7 @@ body{
     float: right;
     margin: 20px 20px 20px 20px;
     border-radius: 16px;
+
 }
 .task-manager{
     width: 244px;
@@ -22,6 +23,8 @@ body{
     background-color: var(--main-color);
     border-radius: 16px;
     margin: 64px 20px 63px 42px;
+    display: flex;
+    justify-content: start;
 }
 .book-logo{
     background-color: blue;
@@ -79,10 +82,13 @@ body{
     font-weight: 600;
     font-size: 24px;
     float: right;
-
-
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
     
-
-
-
+}
+.explore-mentors-wrapper{
+    display: flex;
+    justify-content: end;
 }
